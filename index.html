@@ -20,22 +20,10 @@
   </style>
 </head>
 <body>
-  <div id="chart">const data = {
-  nodes: [
-    { id: "0xWallet1", size: 50 },
-    { id: "0xWallet2", size: 30 },
-    { id: "0xWallet3", size: 20 }
-  ],
-  edges: [
-    { source: "0xWallet1", target: "0xWallet2", value: 10 },
-    { source: "0xWallet2", target: "0xWallet3", value: 5 }
-  ]
-};
-</div>
+  <div id="chart"></div>
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <script>
-    // Visualization code will go here
-      const width = 800;
+   const width = 800;
 const height = 600;
 
 const svg = d3.select("#chart")
